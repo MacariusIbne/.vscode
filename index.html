@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: cyan;
+    }
+
+    .profile-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 15px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .profile-card h2 {
+      margin: 0;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .profile-card p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .social-links {
+      margin-top: 15px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      font-size: 18px;
+      margin: 0 10px;
+      color: #333;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #0077b5; /* For Facebook */
+    }
+
+    .social-links a.instagram:hover {
+      color: #e4405f; /* For Instagram */
+    }
+
+    .social-links a.whatsapp:hover {
+      color: #25d366; /* For WhatsApp */
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="https://via.placeholder.com/100" alt="Profile Picture">
+    <h2>John Doe</h2>
+    <p>Web Developer</p>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com" target="_blank" class="facebook">Facebook</a>
+      <a href="https://www.instagram.com" target="_blank" class="instagram">Instagram</a>
+      <a href="https://wa.me/1234567890" target="_blank" class="whatsapp">WhatsApp</a>
+    </div>
+  </div>
+
+</body>
+</html>
